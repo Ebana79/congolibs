@@ -1,0 +1,198 @@
+/* **-------------------** */
+    /* NOTE CI-DESSOUS */
+/* **-------------------** */
+/* version 2.0 */
+/* Ici se situe le style d'element specifque */
+
+/*
+----------------------------------
+    Selection custom
+----------------------------------
+*/
+main .__rayon-text p::first-letter::selection {
+    background-color: #fff;
+    color: #959595;
+}
+
+::selection {
+    background-color: #b7b7b7;
+    color: #fff;
+}
+
+/*
+----------------------------------
+    Texte specifique
+----------------------------------
+*/
+/* style of btn service doit être appliquer à d'autre btn */
+.btn-service {
+    width: 250px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: #37dc28;
+    background: linear-gradient(to right, #0fd177 0%, #10b510 100%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.prof-btn-true {
+    font-size: 18px;
+}
+
+    .contact a {
+        color: #24e113;
+    }
+
+/*
+----------------------------------------------------
+    underline effect for nav bar and responsive menu
+----------------------------------------------------
+*/
+.overlay ul li a::after,
+.__Rbrq ul li a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.overlay ul li a:hover::after,
+.__Rbrq ul li a:hover::after {
+    width: 100%;
+}
+
+.overlay ul li a:hover,
+.__Rbrq ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*
+----------------------------------
+   Hovers
+----------------------------------
+*/
+.pic-principale div a {
+    color: #0c0d0e;
+    margin: 10px;
+    transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+}
+
+.pic-principale img:hover {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+}
+
+.pic-principale div a:hover {
+    color: #0c26cffb;
+}
+
+
+/* New class */
+
+.givebox {
+    margin: 10px;
+    padding: 0;
+}
+
+.givebox p {
+    margin: 2em;
+}
+
+/* @media (min-width: 950px) {
+    .givebox {
+        margin: 10px;
+        padding: 0;
+    }
+    
+    .givebox p {
+        margin: 10px;
+    }
+} */
+
+/*
+----------------------------------
+  scroll bar custom
+----------------------------------
+*/
+
+.aboutBoxQuest::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+  height: 3px;
+}
+
+.aboutBoxQuest::-webkit-scrollbar-thumb {
+  background: #5deb5a;
+}
+
+.aboutBoxQuest::-webkit-scrollbar-thumb:hover {
+    background-color: var(--main_color);
+}
+
+.aboutBoxQuest::-webkit-scrollbar-track 
+    {
+        background-color: #fff;
+    }
+
+
+/*
+----------------------------------
+  demo txt
+----------------------------------
+*/
+.btn_book {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.btn_book a {
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: var(--main_color);
+    background-image: linear-gradient(to left, transparent, #6fee6c);
+    width: 200px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.btn_book a {
+    font-family: cursive;
+}
+
+#demo, #demo2 {
+    max-width: 270px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Anime name site */
+#anim3D::after {
+    content: '.';
+}

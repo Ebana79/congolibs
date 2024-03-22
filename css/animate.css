@@ -1,0 +1,107 @@
+/* **-------------------** */
+    /* NOTE CI-DESSOUS */
+/* **-------------------** */
+/* version 1.0 */
+/* Ici se situe le style de l'animation des elements html du site*/
+
+/* Text from Home Animate */
+main .__rayon-text p {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    animation: normal pa 1s ease;
+    -webkit-animation: normal pa 1s ease;
+}
+
+@keyframes pa {
+    0% {
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+        opacity: 0;
+}
+
+50% {
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    opacity: 0.10;
+}
+
+100% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    opacity: 1;
+}
+}
+/* Name site Animate */
+.animate3D {
+    transition: all 59s;
+    animation: anim3D 2s cubic-bezier(0.12, 0, 0.39, 0) infinite;
+    -webkit-animation: anim3D 2s cubic-bezier(0.12, 0, 0.39, 0) infinite;
+    -webkit-transition: all 59s;
+    -moz-transition: all 59s;
+    -ms-transition: all 59s;
+    -o-transition: all 59s;
+}
+
+@keyframes anim3D {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+/* ======== *//* ======== *//* ======== */
+    /* Animation Card PROFILE V1.0 */
+/* ======== *//* ======== *//* ======== */
+  @keyframes profil {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+      -webkit-transform: translateY(50px);
+      -moz-transform: translateY(50px);
+      -ms-transform: translateY(50px);
+      -o-transform: translateY(50px);
+}
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+      -o-transform: translateY(0px);
+}
+  }

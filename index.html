@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CongoLibs</title>
+
+           <!-- Style css -->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./css/animate.css">
+
+    <link rel="stylesheet" href="./css/nex_responsive.css">
+
+    <link rel="stylesheet" href="./css/cc.css">
+
+         <!-- ICONE DU SITE --> 
+
+    <link rel="short icon" href="./assets/img/icons/icon.png">
+
+    <!-- NOTE CI-DESSOUS -->
+    <!--
+        version 1.0
+
+        CongoLibs est un site d'etudiant de la classe de
+     -->
+</head>
+<body>
+
+   <!-- Acceuil et Nav bar -->
+
+    <div id="acceuil">
+
+    <header>
+        <span  onclick="openNav()" class="open">&#9776;</span>
+        <div class="overlay" id="myNav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="overlay-content">
+                <li><a href="#acceuil">acceuil</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="#produit">produit</a></li>
+                <li><a href="#libspace">libspace</a></li>
+                <li><a href="#about">A propos</a></li>
+            </ul>
+        </div>
+
+        <!-- Pc -->
+        <div class="__Rbrq">
+            <ul>
+                <li><a href="#acceuil">acceuil</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="#produit">produit</a></li>
+                <li><a href="#libspace">libspace</a></li>
+                <li><a href="#about">A propos</a></li>
+            </ul>
+        </div>
+
+        <div class="__Name-of-site">
+            <h1>CongoLibs</h1>
+        </div>
+
+        <div id="formulaire_et_connexion">
+            <ul>
+                <li class="connexion">Made in</li>
+                <li class="enregistrer">Congo</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <aside class="__rayon-text">
+            <h2>Bienvenue</h2>
+            <p>Sur CongoLibs la bibliotheque des solutions en ligne</p>
+        </aside>
+        <aside class="__aside_a" style="margin: 0 auto;">
+
+                <a id="btn-1" href="#resume">
+                        resumes
+                </a>
+
+                <a id="btn-2" href="#livre">
+                    livres
+                </a>
+        </aside>
+    </main>
+</div>
+
+   <!-- Section Service -->
+
+    <section id="service">
+        <div class="__start-view">
+            <h2 class="__position_Texte-Titre">Service</h2>
+            <div class="intro_service">
+                <p>Ci-dessous se trouve 3 services differents qui vous aideront dans tout votre parcours scolaire</p>
+            </div>
+        </div>
+        <hr>
+        <div class="total_container">
+            <div class="__first-service">
+                <div class="__Text_and_btn">
+                    <div class="__Text">
+                        <h2>Livre :</h2>
+                        <p>Profitez des livres les plus utilise dans les lycees de la Republique du Congo grâce à CongoLibs.</p> 
+                    </div>
+                    <div class="btn">
+                            <a href="#book" class="btn-service">
+                                    Voir ces livres
+                            </a>
+                    </div>
+                </div>
+                <div class="picture">
+                    <div class="pic-principale">
+                        <img src="./assets/img/pictures/book/book-1283865_1280.jpg" alt="picture de livre">
+                        <div>
+                            <a href="#livre">Achetez un livre</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <!-- Second service -->
+            
+            <hr>
+            <div class="__first-service scnd-s">
+                <div class="__Text_and_btn">
+                    <div class="__Text">
+                        <h2>Resume :</h2>
+                        <p>Nous resumons tous vos cours à l'offre et à la demande c'est quand vous voulez et dans toutes les matieres.</p> 
+                    </div>
+                    <div class="btn">
+                            <a href="#resume" class="btn-service">
+                                    Resume Offert
+                            </a>
+                    </div>
+                </div>
+                <div class="picture">
+                    <div class="pic-principale">
+                        <img src="./assets/img/pictures/Resume_picture.png" alt="picture de livre">
+                        <div>
+                            <a href="#resume-a-vendre">Achetez un Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <!-- Troisieme service -->
+            <hr>
+            <div class="__first-service">
+                <div class="__Text_and_btn">
+                    <div class="__Text">
+                        <h2>Allô prof:</h2>
+                        <p>
+                            Decouvrez notre service speciale Allô professeur, Vous allez pouvoir parler avec un professeur de n'importe quel matiere que vous voulez.
+                            Coaching, Explication, Cours & Exercice parlez de tout avec votre super prof.
+                        </p> 
+                    </div>
+                    <div class="btn">
+                          <a href="#prof" class="prof-btn-true btn-service">
+                                Mon Coach, Mon prof 
+                            </a>
+                    </div>
+                </div>
+                <div class="picture">
+                    <div class="pic-principale">
+                        <img src="./assets/img/pictures/Prof-space.png" alt="picture de livre">
+                        <div>
+                            <a href="#prof">Allô prof</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="slogan">
+                <p onclick="animation3D()"  id="anim3D">
+                    CongoLibs
+                </p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Section produit -->
+
+    <section id="produit">
+        <h2 class="__position_Texte-Titre-2">Produit</h2>
+        <div class="__Texte-produit-intro">
+            <p class="__P_lib">
+                Voici une petite selection de nos produits :
+            </p>
+        </div>
+        <hr>
+        <!-- Livre à vendre -->
+        <div class="container-book " id="livre">
+            <h3>Livre</h3>
+            <p class="class-produit __P_lib" style="color:var(--main_color);">Cliquez sur une image pour acheter</p>
+            <hr>
+            <div class="btn_book">
+                    <a href="#active_Text" onclick="typeWriter(), typeWriterD()">Aperçu</a>
+            </div>
+            <div class="content-item">
+                <div class="item"  id="book">
+                    <a href="#lien_d'achat_du_livre_01">
+                        <img src="./assets/img/pictures/Albert_Camus.jpg" alt="img-cover-de-l'Etranger_d'albert_Camus">
+                        <h5 class="P_Title_B">L'etranger d'albert Camus</h5>
+                        <p id="demo" style="display: block; width: 100%"></p>
+                    </a>
+
+                    <a href="#lien_d'achat_du_livre_02">
+                        <img src="./assets/img/pictures/Le_mariage_de_figaro.jpg" alt="img-cover-du-mariage_de_figaro">
+                        <h5 class="P_Title_B">Le mariage de figaro</h5>
+                        <p id="demo2" style="display: block; width: 100%"></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Resumes gratuit -->
+        <div class="content-resume">
+            <div class="resume-free" id="resume">
+                <h3 class="give">Resume offert</h3>
+                <hr>
+                <div class="menu-resume-free">
+                    <div class="resume-math">
+                        <img src="./assets/img/pictures/book/IMG-20240116-WA0001.jpg" alt="cover_du_resume_de_Math">
+                        <div>
+                            <p>Le resume sur les fonctions numeriques</p>
+                            <a href="./assets/pdf/interface_d'acceuil_document.pdf" download style="color: green">Telecharger</a>
+                        </div>
+                    </div>
+                    <div class="resume-histoire">
+                        <img src="./assets/img/pictures/book/IMG-20240116-WA0001.jpg" alt="cover_du_resume_d'_histoire">
+                        <div>
+                            <p>Retracez l'histoire des 2 guerres mondiale</p>
+                            <a href="./assets/pdf/interface_d'acceuil_document.pdf" download style="color: green">Telecharger</a>
+                        </div>
+                    </div>
+                    <div class="resume-svt">
+                        <img src="./assets/img/pictures/book/IMG-20240116-WA0001.jpg" alt="cover_du_resume_de_SVT">
+                        <div>
+                            <p>Petit resume sur le cours de la genetique</p>
+                            <a href="./assets/pdf/interface_d'acceuil_document.pdf" download style="color: green">Telecharger</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <hr>
+            <!-- resume à vendre -->
+             <div class="resumer_a_vendre">
+                <h3 class="give" style="text-align: center;">Resume à vendre</h3>
+                <div class="infos" style="text-align: center;">
+                    Ces resumes sont dejà prêt et sont bases sur ces 8 matieres.
+                    <div class="Buy_Rez">Pour achetez un Resume vous pouvez clicker pour Acheter</div>
+                </div>
+                <hr>
+                <!-- Grid container -->
+                <div class="Grid_container">
+                    <div class="__color_container_item">
+                        <div class="__grid_item grid_color_item_01"><a href="#lien_vers_les_resumes"> Matiere 1</a></div>
+
+                        <div class="__grid_item grid_color_item_02"><a href="#lien_vers_les_resumes"> Matiere 2</a></div>
+    
+                        <div class="__grid_item grid_color_item_03"><a href="#lien_vers_les_resumes"> Matiere 3</a></div>
+    
+                        <div class="__grid_item grid_color_item_04"><a href="#lien_vers_les_resumes"> Matiere 4</a></div>
+    
+                        <div class="__grid_item grid_color_item_05"><a href="#lien_vers_les_resumes"> Matiere 5</a></div>
+    
+                        <div class="__grid_item grid_color_item_06"><a href="#lien_vers_les_resumes"> Matiere 6</a></div>
+    
+                        <div class="__grid_item grid_color_item_07"><a href="#lien_vers_les_resumes"> Matiere 7</a></div>
+    
+                        <div class="__grid_item grid_color_item_08"><a href="#lien_vers_les_resumes"> Matiere 8</a></div>
+                    </div>
+                </div>
+             </div>
+    </section>
+
+   <!-- Section libspace -->
+    <section id="libspace">
+        <h2 class="__position_Texte-Titre">LibSpace</h2>
+        <hr>
+        <div class="info-libspace">
+            <p>Decouvrez plein d'outils et d'astuces sur la libspace</p>
+            <p>Vos solutions à porter de main</p>
+        </div>
+        <hr>
+        <!-- Prof -->
+        <div class="prof" id="prof">
+            <h3 class="give">Allô Prof</h3>
+            <p class="paragrah_Prof">Dite bonjour à allô prof, trouver le prof ideale ci-dessous</p>
+        </div>
+        <!--* Slider Profile *-->
+    <div id="slider">
+        <div    class="profile">
+            <div class="Profile_Picture">
+                <img src="./assets/img/pictures/Profile/Profil_Par_Defaut.jpg" alt="Profile_D'un_Prof">
+            </div>
+            <h3>Nom Prenom</h3>
+            <p>Ecole, Matiere enseignee</p>
+            <a href="#">Prendre Rendez-vous</a>
+        </div>
+        <div    class="profile">
+            <div class="Profile_Picture">
+                <img src="./assets/img/pictures/Profile/Profil_Par_Defaut.jpg" alt="Profile_D'un_Prof">
+            </div>
+            <h3>Nom Prenom</h3>
+            <p>Ecole, Matiere enseignee</p>
+            <a href="#">Prendre Rendez-vous</a>
+        </div>
+        <div    class="profile">
+            <div class="Profile_Picture">
+                <img src="./assets/img/pictures/Profile/Profil_Par_Defaut.jpg" alt="Profile_D'un_Prof">
+            </div>
+            <h3>Nom Prenom</h3>
+            <p>Ecole, Matiere enseignee</p>
+            <a href="#">Prendre Rendez-vous</a>
+        </div>
+        <div    class="profile">
+            <div class="Profile_Picture">
+                <img src="./assets/img/pictures/Profile/Profil_Par_Defaut.jpg" alt="Profile_D'un_Prof">
+            </div>
+            <h3>Nom Prenom</h3>
+            <p>Ecole, Matiere enseignee</p>
+            <a href="#">Prendre Rendez-vous</a>
+        </div>
+        <div    class="profile">
+            <div class="Profile_Picture">
+                <img src="./assets/img/pictures/Profile/Profil_Par_Defaut.jpg" alt="Profile_D'un_Prof">
+            </div>
+            <h3>Nom Prenom</h3>
+            <p>Ecole, Matiere enseignee</p>
+            <a href="#">Prendre Rendez-vous</a>
+        </div>
+                <div id="prev" onclick="previousSlide()">&#8249;</div>
+                <div id="next" onclick="nextSlide()">&#8250;</div>
+     </div>
+    </section>
+
+<!-- Pied de page -->
+    <footer>
+        <div class="__reseau">
+            <!-- NB: to use icons for socials networks -->
+        </div>
+        <div id="about">
+            <h2 class="__position_Texte-Titre-2">A propos</h2>
+        </div>
+        <div class="question-footer">
+        <div class="aboutBoxQuest">
+            <div class="about-answer_block_1">
+                <div class="about-answer">
+                    <h3 class="give">Qui sommes-nous ?</h3>
+                    <p>
+                        Nous sommes une Start up dans l'education dont le but est d'aider par l'intermediaire de cette plateforme la plus part des lyceens congolais.
+                    </p>
+                </div>
+                <div class="about-answer">
+                    <h3 class="give">Que faisons-nous ?</h3>
+                    <p>
+                        Nous vendons des Cours avec Exercices et resume confectionne par le plus grand soin par des enseignants qualifies.
+                    </p>
+                </div>
+                <div class="about-answer">
+                    <h3 class="give">Où sommes nous ?</h3>
+                    <p>
+                        Nous sommes en Rep. Du Congo, à Brazzaville, Talangai.
+                    </p>
+                </div>
+            </div>
+            <div class="about-answer_block_2">
+                <div class="about-answer">
+                     <h3 class="give">Comment nous contacter?</h3>
+                     <p>
+                        Pour nous contacter, cliquer soit sur l'email soit sur tel.
+                    </p>
+                </div>
+                <div class="about-answer">
+                    <h3 class="give">Comment Payer ?</h3>
+                    <p>
+                        Pour nous payer vous pouvez passer par le Mobile Monney ou Airtel Monney.
+                    </p>
+                </div>
+                <div class="about-answer">
+                    <h3 class="give">Aide</h3>
+                    <p>
+                         Pour demander de l'aide vous pouvez contacter notre support ci-dessous.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="contact">
+            <h3 class="give">Contactez Nous</h3>
+            <hr>
+            <ul class="give">
+                <li class="Mail">E-mail: <a href="mailto:ebanaplamedy@gmail.com">ebanaplamedy@gmail.com</a></li>
+                <li class="Tel">Tel : <a href="tel:+242067756084">contactez par mobile</a>&phone;</li>
+            </ul>
+            <hr>
+        </div>
+        <p class="give">&COPY;2024 par <a href="tel:+242067756084">Plamedi Ebana</a></p>
+    </footer>
+
+        <a href="#top" class="circle_btn">👆</a>
+
+    <!-- Script JS FILES Link -->
+    <script src="./js/main.js"></script>
+
+    <script src="./js/slider.js"></script>
+
+</body>
+</html>
